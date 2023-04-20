@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    animation: animate 16s ease-in-out infinite;
+    background-size: contain;
+}
+
+.outer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+}
+
+.details {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.details h1{
+    font-family: arial;
+    font-size: 3em;
+    color: white;
+}
+
+.details h2{
+    font-family: arial;
+    text-transform: capitalize;
+    color: white;
+}
+.details h2{
+    font-family: arial;
+    font-size: 6em;
+    color: white;
+} 
+
+.details h3 {
+    font-family: arial;
+    color: rgb(102, 255, 0);
+    font-size: 2em
+}
+
+@keyframes animate{
+    0%, 100%{
+        background-image: url(/Slider_5.jpg);
+    }
+    25%{
+        background-image: url(/Slider_7.jpg);
+    }
+    75%{
+        background-image: url(/Slider_8.jpg);
+    }
+    0%, 100%{
+        background-image: url(/Slider_1.jpg);
+    }
+    25%{
+        background-image: url(/Slider_3.jpg);
+    }
+    75%{
+        background-image: url(/Slider_12.jpg);
+    }
+}
+
+.intro {
+    font: italic;
+    font-size: 2em;
+    font-weight: bolder;
+    color: green;
+    text-align: center;
+    background-color: lightgrey;
+}
+
+.contain {
+    margin: 20px 40px;
+    width: 100%;
+    padding: 2px;
+}
+
+img {
+    float: left;
+    width: 300px;
+    height: 400px;
+    padding: 0 10px 0 0;
+}
+
+.text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+    text-align: center; 
+}
+
+.containa {
+    margin: 20px 40px;
+    width: 50%;
+    padding: 2px;
+    float: left;
+}
+
+img {
+    float: center;
+    width: 400px;
+    height: 500px;
+    padding: 0 10px 0 0;
+}
+
+.submit-button {
+    background-color: rgb(9, 201, 9);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 105px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 20px 20px;
+    font-weight: 80px;
+    font-size: 15px;
+}
+
+.subscribe-button:hover {
+    background-color: rgb(185, 110, 175);
+}
+
+.reset-button {
+    background-color: rgb(34, 117, 194);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 105px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 20px 20px;
+    font-weight: 80px;
+    font-size: 15px;
+}
+
+.reset-button:hover {
+    background-color: rgba(30, 196, 52, 0.89);
+}
+
+.text-can {
+    margin: 20px 40px;
+    padding: 2px;
+}
+
+.outro {
+    background-color:rgb(171, 181, 190)
+}
+
+.bet {
+    border: 10px;
+    border-radius: 3px;
+    background-color: white;
+    font-weight: 200;
+    font-size: 20px;
+    color: blue;
+}
+
+.text-a {
+    font-weight: 400;
+    font-size: 30;
+}
+
+.beta {
+    background-color: rgb(75, 4, 4);
+    background-
+    color: white;
+}
